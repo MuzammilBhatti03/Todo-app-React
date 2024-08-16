@@ -4,6 +4,8 @@
   functions = "functions"
   publish = "build"
 
+[functions]
+  directory = "netlify/functions"
 
 [build.environment]
   NODE_VERSION = "16.x"
